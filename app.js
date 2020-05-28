@@ -9,7 +9,8 @@
 
     function FoundItems() {
         var ddo = {
-            templateUrl: 'foundItems.template.html',
+            restrict: 'E',
+            templateUrl: 'foundItems.html',
             scope: {
                 foundItems: '<',
                 onEmpty: '<',
